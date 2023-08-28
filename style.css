@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+body{
+    background: linear-gradient(rgb(52, 52, 52), rgb(126, 125, 125), rgb(203, 202, 202));
+    max-width: 90%;
+    margin-left: 25%;
+    background-color: gray hidden;
+    background-image: url('neon.jpg') hidden;
+    background-repeat: no-repeat;
+    font-family: 'Open Sans', sans-serif;
+    
+}
+p{
+    font-family: serif;
+    line-height: 25px;
+    font-size: 20px;
+    color: rgb(51, 46, 46);
+    max-width: 65%;
+    
+}
+a{
+    text-decoration: none;
+    color: rgb(235, 219, 41);
+}
+a:hover{
+    color: rgb(195, 83, 83);
+}
+a:visited{
+    color: rgb(64, 92, 92);
+}
+.title{
+    margin-left: 30%;
+}
+tr{
+    border: 1px solid black;
+}
+td{
+    border: 1px solid black;
+}
+table{
+    border: 1px solid black;
+    
+}
+p q{
+    font-weight: 160%;
+    background-color: rgb(122, 121, 121);
+    border: 3px solid #a03623;
+    padding: 3px;
+    font-style: italic;
+}
+.good{
+    font-style: normal;
+    color: green;
+    text-transform: capitalize;
+}
+.bad{
+    font-style: normal;
+    color: red;
+    text-transform: capitalize;
+}
+header:nth-child(1){
+    background-color: yellow hidden;
+}
+tr:nth-child(odd){
+    background-color: grey;
+}
+.firstparagraph{
+    font-weight: bold;
+}
+p{
+    float: left hidden;
+}
+.notif{
+    position: fixed;
+    bottom: 0;
+    left: 10px;
+    float: left;
+}
