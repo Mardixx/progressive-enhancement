@@ -43,7 +43,7 @@ table{
 p q{
     font-weight: 160%;
     background-color: rgb(122, 121, 121);
-    border: 3px solid #a03623;
+    border-left: 3px solid #a03623;
     padding: 3px;
     font-style: italic;
 }
