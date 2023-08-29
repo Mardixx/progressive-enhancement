@@ -7,6 +7,7 @@ body{
     background-image: url('neon.jpg') hidden;
     background-repeat: no-repeat;
     font-family: 'Open Sans', sans-serif;
+    margin: auto;
     
 }
 p{
@@ -44,8 +45,10 @@ p q{
     font-weight: 160%;
     background-color: rgb(122, 121, 121);
     border-left: 3px solid #a03623;
-    padding: 3px;
+    padding: 30px;
     font-style: italic;
+    padding-top: 80px;
+    padding-bottom: 80px;
 }
 .good{
     font-style: normal;
@@ -58,7 +61,7 @@ p q{
     text-transform: capitalize;
 }
 header:nth-child(1){
-    background-color: yellow hidden;
+    background-color: yellow;
 }
 tr:nth-child(odd){
     background-color: grey;
@@ -67,11 +70,21 @@ tr:nth-child(odd){
     font-weight: bold;
 }
 p{
-    float: left hidden;
+    float: left;
+    margin-top: 10px;
 }
 .notif{
     position: fixed;
     bottom: 0;
     left: 10px;
     float: left;
+}
+.farmer{
+    font-weight: 160%;
+    background-color: rgb(122, 121, 121);
+    border-left: 3px solid #a03623;
+    padding: 30px;
+    font-style: italic;
+    padding-top: 80px;
+    padding-bottom: 80px;
 }
